@@ -11,15 +11,6 @@ import UIKit
 class MyCollectionViewCell: UICollectionViewCell {
     static let cellName = "MyCollectionViewCell"
     
-    let imageView: UIImageView = {
-        let view = UIImageView()
-        view.contentMode = .scaleAspectFit
-        view.translatesAutoresizingMaskIntoConstraints = false
-        view.layer.cornerRadius = 25
-        
-        return view
-    }()
-    
     let imageLabel: UILabel = {
         let label = UILabel()
         label.font = UIFont.systemFont(ofSize: 30)
@@ -78,7 +69,6 @@ class MyCollectionViewCell: UICollectionViewCell {
     override func prepareForReuse() {
         titleLabel.text = nil
         subtitleLabel.text = nil
-        imageView.image = nil
         imageLabel.text = nil
     }
     
@@ -88,7 +78,6 @@ class MyCollectionViewCell: UICollectionViewCell {
         
         contentView.addSubview(stack)
         
-//        stack.addArrangedSubview(imageView)
         stack.addArrangedSubview(imageLabel)
         stack.addArrangedSubview(labelsStack)
         
@@ -105,13 +94,8 @@ class MyCollectionViewCell: UICollectionViewCell {
             stack.leftAnchor.constraint(equalTo: contentView.leftAnchor, constant: 10),
             stack.rightAnchor.constraint(equalTo: contentView.rightAnchor, constant: -10),
             
-            imageView.heightAnchor.constraint(equalToConstant: 50),
-            imageView.widthAnchor.constraint(equalToConstant: 50),
-            
             imageLabel.heightAnchor.constraint(equalToConstant: 50),
-            imageLabel.widthAnchor.constraint(equalToConstant: 50),
-            
-            
+            imageLabel.widthAnchor.constraint(equalToConstant: 50)
         ])
     }
 }

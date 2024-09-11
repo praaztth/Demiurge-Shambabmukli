@@ -7,21 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		641ADB882C91AAD600FF0EE2 /* EmptyMyCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 641ADB872C91AAD600FF0EE2 /* EmptyMyCollectionViewCell.swift */; };
 		64A85D562C905850005C4204 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64A85D552C905850005C4204 /* AppDelegate.swift */; };
 		64A85D582C905850005C4204 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64A85D572C905850005C4204 /* SceneDelegate.swift */; };
 		64A85D5A2C905850005C4204 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64A85D592C905850005C4204 /* ViewController.swift */; };
-		64A85D5D2C905850005C4204 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 64A85D5C2C905850005C4204 /* Base */; };
 		64A85D5F2C905851005C4204 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64A85D5E2C905851005C4204 /* Assets.xcassets */; };
 		64A85D622C905851005C4204 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 64A85D612C905851005C4204 /* Base */; };
 		64A85D6C2C90603B005C4204 /* MyCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64A85D6B2C90603B005C4204 /* MyCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		641ADB872C91AAD600FF0EE2 /* EmptyMyCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyMyCollectionViewCell.swift; sourceTree = "<group>"; };
 		64A85D522C905850005C4204 /* Demiurge Shambabmukli.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Demiurge Shambabmukli.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		64A85D552C905850005C4204 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		64A85D572C905850005C4204 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		64A85D592C905850005C4204 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		64A85D5C2C905850005C4204 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		64A85D5E2C905851005C4204 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		64A85D612C905851005C4204 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		64A85D632C905851005C4204 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -61,11 +61,11 @@
 				64A85D552C905850005C4204 /* AppDelegate.swift */,
 				64A85D572C905850005C4204 /* SceneDelegate.swift */,
 				64A85D592C905850005C4204 /* ViewController.swift */,
-				64A85D5B2C905850005C4204 /* Main.storyboard */,
 				64A85D5E2C905851005C4204 /* Assets.xcassets */,
 				64A85D602C905851005C4204 /* LaunchScreen.storyboard */,
 				64A85D632C905851005C4204 /* Info.plist */,
 				64A85D6B2C90603B005C4204 /* MyCollectionViewCell.swift */,
+				641ADB872C91AAD600FF0EE2 /* EmptyMyCollectionViewCell.swift */,
 			);
 			path = "Demiurge Shambabmukli";
 			sourceTree = "<group>";
@@ -130,7 +130,6 @@
 			files = (
 				64A85D5F2C905851005C4204 /* Assets.xcassets in Resources */,
 				64A85D622C905851005C4204 /* Base in Resources */,
-				64A85D5D2C905850005C4204 /* Base in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -142,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				64A85D5A2C905850005C4204 /* ViewController.swift in Sources */,
+				641ADB882C91AAD600FF0EE2 /* EmptyMyCollectionViewCell.swift in Sources */,
 				64A85D562C905850005C4204 /* AppDelegate.swift in Sources */,
 				64A85D6C2C90603B005C4204 /* MyCollectionViewCell.swift in Sources */,
 				64A85D582C905850005C4204 /* SceneDelegate.swift in Sources */,
@@ -151,14 +151,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		64A85D5B2C905850005C4204 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				64A85D5C2C905850005C4204 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		64A85D602C905851005C4204 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -300,7 +292,6 @@
 				INFOPLIST_FILE = "Demiurge Shambabmukli/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -327,7 +318,6 @@
 				INFOPLIST_FILE = "Demiurge Shambabmukli/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
